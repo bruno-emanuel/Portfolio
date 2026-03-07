@@ -407,6 +407,8 @@ footer .line-footer p a{
 
     border-radius: 50%;
     z-index: 999;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
 /* GITHUB PROJETOS */
@@ -553,10 +555,36 @@ text-align:center;
     height:auto;
 }
 .img-sobre img{
-    width:100%;
+    width: 350PX;
     height:auto;
 }
 .img-topo-site img{
-    width:100%;
+    width:350PX;
     height:auto;
+}
+.tech-icons{
+display: flex;
+gap: 40px;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 30px;
+}
+
+.tech{
+text-align: center;
+transition: transform 0.3s, color 0.3s;
+cursor: pointer;
+}
+
+.tech i{
+font-size: 50px;
+color: #5900ff;
+}
+
+.tech:hover{
+transform: translateY(-10px) scale(1.1);
+}
+
+.tech:hover i{
+color: #00b7ff;
 }
