@@ -391,15 +391,22 @@ footer .line-footer p a{
 /* WHATSAPP */
 
 .whatsapp{
-position:fixed;
-bottom:20px;
-right:20px;
-background:#5900ff;
-color:white;
-font-size:30px;
-padding:15px;
-border-radius:50%;
-z-index:999;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #5900ff;
+    color: white;
+    font-size: 30px;
+
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    z-index: 999;
 }
 
 /* GITHUB PROJETOS */
